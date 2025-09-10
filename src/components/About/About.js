@@ -1,16 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/about-img.png";
 import Toolstack from "./Toolstack";
+import Certbadge from "./Cert";
 
 function About() {
   return (
     <Container fluid className="about-section">
-      <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
@@ -35,9 +34,13 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
+          <strong className="purple">Certification </strong>
+        </h1>
+        <Certbadge />
+
+        <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
-
         <Techstack />
 
         <h1 className="project-heading">
@@ -45,7 +48,6 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
       </Container>
     </Container>
   );

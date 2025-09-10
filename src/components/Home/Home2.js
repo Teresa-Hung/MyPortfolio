@@ -24,37 +24,28 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I’ve always been curious about the stories hidden in data, and programming gave me the tools to uncover them.
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              <br />I work mainly with
+              <b className="purple"> Python </b>
+              and libraries like
+              <b className="purple"> PyTorch, TensorFlow, and scikit-learn</b>
+              , along with 
+              <b className="purple"> SQL </b>
+              for managing data.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              What excites me most is finding patterns in data and turning them into useful insights, 
+              whether that’s through 
+              <b className="purple"> data analytics </b>
+              or building
+              <b className="purple"> machine learning </b>
+              models.
+              <br />
+              <br />
+              I’m working toward a career as a
+              <b className="purple"> Data Analyst</b> or <b className="purple">Machine Learning Engineer</b>
+              , where I can keep learning and solving real-world problems with data.
             </p>
           </Col>
         </Row>
@@ -67,22 +58,12 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Teresa-Hung"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">
@@ -97,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/teresa__hung/#"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
