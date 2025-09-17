@@ -1,6 +1,6 @@
 <h2 align="center">
   My Portfolio Website<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">visit here</a>
+  <a href="https://teresahung.vercel.app/" target="_blank">visit here</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./src/Assets/Projects/website.png" />
@@ -10,7 +10,7 @@
 
 ## Built With
 
-My personal portfolio website. Check it out at <a href="https://soumyajit.vercel.app/" target="_blank">here</a>! <br/>
+My personal portfolio website. Check it out at <a href="https://teresahung.vercel.app/" target="_blank">here</a>! <br/>
 
 This project was built using these technologies.
 
