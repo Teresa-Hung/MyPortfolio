@@ -4,7 +4,6 @@ import myImg from "../../Assets/my-avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -16,11 +15,12 @@ function Home2() {
         <Row>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" style={{ minWidth: "250px" }}/>
             </Tilt>
           </Col>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+
+          <Col className="home-about-description">
+            <h1 style={{ fontSize: "2.2em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
@@ -53,7 +53,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <b className="purple">connect </b>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

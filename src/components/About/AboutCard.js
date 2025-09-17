@@ -1,13 +1,12 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 import { BsChatSquareHeart } from "react-icons/bs";
 
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
+        <blockquote className="blockquote mb-0" style={ {fontSize: "1.2em"} }>
           <p style={{ textAlign: "justify" }}>
             Hello, I am <span className="purple">Teresa Hung </span>
             — an <span className="purple">aspiring Data Analyst/Scientist </span> with a passion for
@@ -33,7 +32,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(235 140 132)" }}>
+          <p className="purple">
             "On a journey to realize my full potentials!"{" "}
           </p>
           <footer className="blockquote-footer">Teresa Hung</footer>

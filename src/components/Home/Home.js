@@ -28,17 +28,17 @@ function Home() {
                 Welcome to my portfolio website!
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ textAlign: "left", paddingLeft: 50 }}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 20, paddingTop: 20 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxWidth: "450px", minWidth: "300px" }}
               />
             </Col>
           </Row>
