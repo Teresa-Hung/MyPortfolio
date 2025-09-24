@@ -8,7 +8,9 @@ import ProjectCard from "./ProjectCards";
 // import suicide from "../../Assets/Projects/suicide.png";
 import website from "../../Assets/Projects/website.png";
 import dragdit from "../../Assets/Projects/DragDiT.png"
-import tableau from "../../Assets/Projects/tableau.png"
+import tableau from "../../Assets/Projects/tableau_tiktok.png"
+import pawpularity from "../../Assets/Projects/pawpularity.png"
+import movie from "../../Assets/Projects/movie.jpg"
 
 function Projects() {
   return (
@@ -32,21 +34,40 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={website}
+              imgPath={movie}
               isBlog={false}
-              title="Personal Website"
-              description="My personal portfolio website build with Next.js, React, and Tailwind Css. Customized based on an open source template by soumyajit4419."
-              ghLink="https://github.com/Teresa-Hung/MyPortfolio"
+              title='Sentiment Classification of Movie Reviews'
+              description='This project focused on classifying sentiment in text from Rotten Tomatoes movies reviews dataset by experimenting with bi-GRU, bi-LSTM, fine-tuned BERT, and LLaMA 2 models. Through transfer learning, ensembling, and optimized preprocessing with GloVe and FastText embeddings, the system achieved 84.6% test accuracy while improving robustness for real-world language understanding.'
             />
           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tableau}
               isBlog={false}
-              title="Interactive Business Dashboards with Tableau"
-              description="Developed Tableau dashboards as part of the Google Advanced Data Analytics Certification. The project features storyboards and interactive filters that allow users to explore data, uncover trends, and generate actionable insights."
-              demoLink="https://public.tableau.com/app/profile/teresa.hung5155/vizzes"              
+              title="TikTok Video Claims Classification"
+              description="Built an end-to-end analytics pipeline to classify claim vs. opinion videos and explore content moderation strategies. Conducted EDA in Python, created interactive Tableau dashboards, and performed statistical testing on account verification and engagement. Developed predictive models (Logistic Regression, Random Forest, XGBoost) and evaluated with F1 score, ROC, and confusion matrix."
+              demoLink="https://public.tableau.com/views/GoogleAdvancedDataAnalyticsCapstoneProject-Course3/TikTokVideoClaimDatasetInsights?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pawpularity}
+              isBlog={false}
+              title='"Pawpularity" Prediction'
+              description='As part of a NTU Machine Learning module, my team and I tackled Kaggle’s "PetFinder.my - Pawpularity Contest", where we predicted pet photo popularity from over 9,000 images. We combined image embeddings from multiple pre-trained models (CLIP, ResNeXt, ViT) with metadata, experimenting with data augmentation, hyperparameter tuning, and ensembling. Our deep learning model placed in the top 7.5% (RMSE 17.09) on the private leaderboard.'
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={website}
+              isBlog={false}
+              title="Personal Website"
+              description="My personal portfolio website build with Next.js, React, and Tailwind Css. Customized based on an open source template by soumyajit4419."
+              ghLink="https://github.com/Teresa-Hung/MyPortfolio"
             />
           </Col>
 
